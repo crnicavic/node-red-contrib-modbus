@@ -836,28 +836,6 @@
     "@types/semver" "^7.5.5"
     semver "^7.5.2"
 
-"@emnapi/core@^1.1.0":
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/@emnapi/core/-/core-1.3.1.tgz"
-  integrity sha512-pVGjBIt1Y6gg3EJN8jTcfpP/+uuRksIo055oE/OBkDNcjZqVbfkWCksG1Jp4yZnj3iKWyWX8fdG/j6UDYPbFog==
-  dependencies:
-    "@emnapi/wasi-threads" "1.0.1"
-    tslib "^2.4.0"
-
-"@emnapi/runtime@^1.1.0":
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.3.1.tgz"
-  integrity sha512-kEBmG8KyqtxJZv+ygbEim+KCGtIq1fC22Ms3S4ziXmYKm8uyoLX0MHONVKwp+9opg390VaKRNt4a7A9NwmpNhw==
-  dependencies:
-    tslib "^2.4.0"
-
-"@emnapi/wasi-threads@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.0.1.tgz"
-  integrity sha512-iIBu7mwkq4UQGeMEM8bLwNK962nXdhodeScX4slfQnRhEMMzvYivHhutCIk8uojvmASXXPC2WNEjwxFWk72Oqw==
-  dependencies:
-    tslib "^2.4.0"
-
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.1"
   resolved "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.1.tgz"
@@ -1004,15 +982,6 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
-
-"@napi-rs/wasm-runtime@^0.2.3":
-  version "0.2.5"
-  resolved "https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.5.tgz"
-  integrity sha512-kwUxR7J9WLutBbulqg1dfOrMTwhMdXLdcGUhcbCcGwnPLt3gz19uHVdwH1syKVDbE022ZS2vZxOWflFLS0YTjw==
-  dependencies:
-    "@emnapi/core" "^1.1.0"
-    "@emnapi/runtime" "^1.1.0"
-    "@tybys/wasm-util" "^0.9.0"
 
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3":
   version "2.1.8-no-fsevents.3"
@@ -1162,46 +1131,6 @@
     moment "2.30.1"
     moment-timezone "0.5.46"
 
-"@node-rs/bcrypt-android-arm-eabi@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-android-arm-eabi/-/bcrypt-android-arm-eabi-1.10.4.tgz"
-  integrity sha512-55ajutuTdfK1hKseyliflnxzNtxszQQ/EoLtgJlgCe7rI24vGP9EEEZDznB/u9OaJ14/AYzZtIhkEOYdbIdw0A==
-
-"@node-rs/bcrypt-android-arm64@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-android-arm64/-/bcrypt-android-arm64-1.10.4.tgz"
-  integrity sha512-dCgQT7nH65tORmJw2hQ6zQgFmmC+/JBYZUWtf7pPZI76AVAn5tc7cIUrxYoV4OT1+uD63b9Av+mS1fT2EPzWEg==
-
-"@node-rs/bcrypt-darwin-arm64@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-darwin-arm64/-/bcrypt-darwin-arm64-1.10.4.tgz"
-  integrity sha512-gmHdWikHL3YVZgqXAHT+X/PG+kqIyNlPeFAWKdby83RkDI8FUiPV4qqGilgNnBmVWKkobRae9/I1HDbc4Sbhyg==
-
-"@node-rs/bcrypt-darwin-x64@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-darwin-x64/-/bcrypt-darwin-x64-1.10.4.tgz"
-  integrity sha512-WDzL1WKRtoyTkH6IMPx95Mkd6XaeN0VWJbSDMqQY6AFBOk03yJEj7YYXshCcF+Ur6KBBVSwRf6sdFJ15NI1Z3g==
-
-"@node-rs/bcrypt-freebsd-x64@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-freebsd-x64/-/bcrypt-freebsd-x64-1.10.4.tgz"
-  integrity sha512-seSPJi+4MIUd1faL/n/wmDdDwaynd/FTkvTnb7qzCk8LBT+/dxi7MTz+uaD8KYDREcB9Wmhv+lwr0S9/jBTcjg==
-
-"@node-rs/bcrypt-linux-arm-gnueabihf@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-linux-arm-gnueabihf/-/bcrypt-linux-arm-gnueabihf-1.10.4.tgz"
-  integrity sha512-YcMLUtN9cGNTWKnaXslxGO1M0S5b4QN9KYhuyG6Kju27RfqvU5UbmpKElCsEUO2EIjxGwzvPu59T+Fyh6sVbwg==
-
-"@node-rs/bcrypt-linux-arm64-gnu@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-linux-arm64-gnu/-/bcrypt-linux-arm64-gnu-1.10.4.tgz"
-  integrity sha512-uYGUK/mO8SiftqmVSAePWxgK82vg+X/gtrVRJi95yq2iwp1+fYJX3ndxCyYPmeplBbd3NJ/F5lPT3FC/IHTTGw==
-
-"@node-rs/bcrypt-linux-arm64-musl@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-linux-arm64-musl/-/bcrypt-linux-arm64-musl-1.10.4.tgz"
-  integrity sha512-rLvSMW/gVUBd2k2gAqQfuOReHWd9+jvz58E3i1TbkRE3a5ChvjOFc9qKPEmXuXuD9Mdj7gUwcYwpq8MdB5MtNw==
-
 "@node-rs/bcrypt-linux-x64-gnu@1.10.4":
   version "1.10.4"
   resolved "https://registry.npmjs.org/@node-rs/bcrypt-linux-x64-gnu/-/bcrypt-linux-x64-gnu-1.10.4.tgz"
@@ -1211,28 +1140,6 @@
   version "1.10.4"
   resolved "https://registry.npmjs.org/@node-rs/bcrypt-linux-x64-musl/-/bcrypt-linux-x64-musl-1.10.4.tgz"
   integrity sha512-f9RPl/5n2NS0mMJXB4IYbodKnq5HzOK5x1b9eKbcjsY0rw3mJC3K0XRFc8iaw1a5chA+xV1TPXz5mkykmr2CQQ==
-
-"@node-rs/bcrypt-wasm32-wasi@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-wasm32-wasi/-/bcrypt-wasm32-wasi-1.10.4.tgz"
-  integrity sha512-VaDOf+wic0yoHFimMkC5VMa/33BNqg6ieD+C/ibb7Av3NnVW4/W9YpDpqAWMR2w3fA40uTLWZ7FZSrcFck27oA==
-  dependencies:
-    "@napi-rs/wasm-runtime" "^0.2.3"
-
-"@node-rs/bcrypt-win32-arm64-msvc@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-win32-arm64-msvc/-/bcrypt-win32-arm64-msvc-1.10.4.tgz"
-  integrity sha512-M7sGnbKPvhYJ5b76ywXiEwR4mIs/JSDHjRrhm9fshKAvltQrwc3Mou22TJggvDN3gKOF1W85uPiM2OgGX/jxMg==
-
-"@node-rs/bcrypt-win32-ia32-msvc@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-win32-ia32-msvc/-/bcrypt-win32-ia32-msvc-1.10.4.tgz"
-  integrity sha512-zn/n4DYnuOfC2JgmVDa0JHP+5DUqAOTl2jmV3yrMrmN+StDT4Om5wtvWxvEmgv3CkeZAuAU3Y/fwjSXIpZ0Fhg==
-
-"@node-rs/bcrypt-win32-x64-msvc@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/bcrypt-win32-x64-msvc/-/bcrypt-win32-x64-msvc-1.10.4.tgz"
-  integrity sha512-ynQokTTGbuLu/cckaD8dNcE+Zsfam1zElE+teNol8AxcL7Jv+ghJItSnRthPRV/vLxuycDF2DIICgpXG/p9jrQ==
 
 "@node-rs/bcrypt@1.10.4":
   version "1.10.4"
@@ -1535,13 +1442,6 @@
   integrity sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==
   dependencies:
     defer-to-connect "^2.0.1"
-
-"@tybys/wasm-util@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.9.0.tgz"
-  integrity sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==
-  dependencies:
-    tslib "^2.4.0"
 
 "@types/expect@^1.20.4":
   version "1.20.4"
@@ -2285,13 +2185,6 @@ binaryextensions@^2.2.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/binaryextensions/-/binaryextensions-2.3.0.tgz"
   integrity sha512-nAihlQsYGyc5Bwq6+EsubvANYGExeJKHDO3RjnvwU042fawQTQfM3Kxn7IHUXQOz4bzfwsGYYHGSvXyW4zOGLg==
-
-bindings@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz"
-  integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
-  dependencies:
-    file-uri-to-path "1.0.0"
 
 bl@^4.0.2:
   version "4.1.0"
@@ -4513,11 +4406,6 @@ file-entry-cache@^6.0.1:
   dependencies:
     flat-cache "^3.0.4"
 
-file-uri-to-path@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz"
-  integrity sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==
-
 fill-range@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/fill-range/-/fill-range-4.0.0.tgz"
@@ -4806,19 +4694,6 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
-
-fsevents@^1.2.7:
-  version "1.2.13"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-1.2.13.tgz"
-  integrity sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==
-  dependencies:
-    bindings "^1.5.0"
-    nan "^2.12.1"
-
-fsevents@~2.3.2:
-  version "2.3.3"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
-  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.2:
   version "1.1.2"
@@ -7294,11 +7169,6 @@ mute-stream@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/mute-stream/-/mute-stream-1.0.0.tgz"
   integrity sha512-avsJQhyd+680gKXyG/sQc0nXaC6rBkPOfyHYcFb9+hdkqQkR9bdnkJ0AMZhke0oesPqIO+mFFJ+IdBc7mst4IA==
-
-nan@^2.12.1:
-  version "2.22.0"
-  resolved "https://registry.npmjs.org/nan/-/nan-2.22.0.tgz"
-  integrity sha512-nbajikzWTMwsW+eSsNm3QwlOs7het9gGJU5dDZzRTQGk03vyBOauxgI4VakDzE0PtsGTmXPsXTbbjVhRwR5mpw==
 
 nanomatch@^1.2.9:
   version "1.2.13"
