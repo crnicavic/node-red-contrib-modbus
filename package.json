@@ -79,7 +79,7 @@
     "test-with-coverage": "nyc --reporter=lcovonly mocha --recursive -R spec && cat ./coverage/lcov.info | codacy-coverage --token $CODACY_COVERAGE_TOKEN && rm -rf ./coverage",
     "coverage": "npm run lint && nyc --reporter=html --reporter=text mocha ./test --parallel --recursive --reporter dot --timeout 10000",
     "coverage-nyc": "npm run lint && nyc report --reporter=text-lcov | coveralls",
-    "prepare": "gulp cleanProject releaseWebContent releaseJSContent codeJSContent releaseLocal releaseIcons",
+    "prepare": "gulp build",
     "build": "npm run lint && gulp",
     "prepublishOnly": "npm run clean && npm run lint && npm run rewrite-changelog && npm test && npm run coverage && npm run build",
     "ci-publish": "ci-publish",
